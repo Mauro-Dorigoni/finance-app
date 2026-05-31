@@ -1,0 +1,14 @@
+build/
+target/
+bin/
+out/
+
+.settings/
+.classpath
+.project
+.metadata/
+
+*.war
+*.class
+.env
+.env.*

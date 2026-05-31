@@ -11,7 +11,7 @@ public class Expense {
 	private ExpenseCategory category;
 	private User user;
 	private Account account;
-	private FixedExpense fixed_cost;
+	private FixedExpense fixed_expense;
 	public int getExpense_id() {
 		return expense_id;
 	}
@@ -67,10 +67,10 @@ public class Expense {
 		this.account = account;
 	}
 	public FixedExpense getFixed_cost() {
-		return fixed_cost;
+		return fixed_expense;
 	}
 	public void setFixed_cost(FixedExpense fixed_cost) {
-		this.fixed_cost = fixed_cost;
+		this.fixed_expense = fixed_cost;
 	}
 	
 }
